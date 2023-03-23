@@ -1,0 +1,92 @@
+body {
+    background-color: darkcyan;
+    overflow-x: hidden; 
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+}
+h2{
+    text-align: center;
+}
+.overall{
+    padding-left: 35px;
+}
+.one,.two,.three,.four,.five,.six {
+    margin: 10px 0 0 0;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    height: 55px;
+    width: 60px;
+    border:solid 1px;
+    border-radius: 8px;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.UppperCase{
+    text-transform: uppercase;
+}
+button:hover{
+    color:black;
+    background-color:rgb(176, 228, 228);
+}
+
+.enter {
+    width: 129px;
+}
+
+.Backspace{
+    width: 127px;
+}
+
+.tab {
+    width: 95px;
+}
+
+.caps {
+    width: 119px;
+}
+
+.shift {
+    width: 189px;
+}
+
+.space {
+    width: 94%;
+}
+
+.cntrl {
+    width: 88px;
+}
+
+.slash {
+    width: 65px;
+}
+
+.del {
+    width: 89px;
+}
+
+
+textarea {
+    height: 124px;
+    width: 955px;
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 21px;
+}
+
+.matching{
+    background-color:rgb(176, 228, 228);
+    color: black;
+}
